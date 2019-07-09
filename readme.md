@@ -12,4 +12,4 @@ Every task will sleep for 5 seconds. Each task consumes one piece of resource an
 
 In the output you'll see when each of the tasks `accessed` the resource. There should not be more than 4 tasks generating the data at the same time despite 20 processes working on tasks simultaneously.
 
-
+Some pieces of the official documentation covering it are [here](https://luigi.readthedocs.io/en/stable/luigi_patterns.html#avoiding-concurrent-writes-to-a-single-file).
